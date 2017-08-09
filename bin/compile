@@ -13,7 +13,7 @@ if [[ -e "${ENV_DIR}/TOR_SRC_URL" ]]; then
 fi
 
 if [[ -z "${TOR_SRC_URL}" ]]; then
-    TOR_SRC_URL="https://dist.torproject.org/tor-0.2.7.6.tar.gz"
+    TOR_SRC_URL="https://dist.torproject.org/tor-0.3.0.9.tar.gz"
 fi
 
 wget -q $TOR_SRC_URL
